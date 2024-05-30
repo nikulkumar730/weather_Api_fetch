@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- font-awesome-cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>weather app</title>
+    </head>
+    <body>
+        
+        <div class="weeather-App">
+            <!-- main div-start -->
+            
+            <form action="" class="search-form">
+                <input class="city-input" type="text" name="" id="datainput" placeholder="Enter Your City ">
+                <button class="search-btn">
+    <i class="material-icons">search</i>
+</button>
+    </form>
+
+<!-- date-section start -->
+<div class="city-date-section">
+    <h2 class="city"></h2>
+    <p class="date"></p>
+    
+</div>
+<!-- date-section end-->
+<!-- temprature-info start-->
+<div class="temprature-info">
+        <div class="discription">
+            <i class="material-icons" id="ics">wb_sunny</i>
+            <span class="discription-text">Sunny</span>
+        </div>
+        <div class="temp">0°</div>
+    </div>  
+    <div class="additional-info">
+        <div class="wind-info">
+            <i class="material-icons">air</i>
+            <div>
+                <h3 class="wind-speed">0 KM/H</h3>
+                <p class="wind-label" >Wind</p>
+            </div>
+        </div>
+        <div class="humidity-info">
+            <i class="material-icons">water_drop</i>
+            <div>
+                <h3 class="humidity">0%</h3>
+                <p class="humidity-label" >Humidity</p>
+            </div>
+        </div>
+        <div class="visibility-info">
+            <i class="material-icons">visibility</i>
+            <div>
+                <h3 class="visibility-distance">0 km/h</h3>
+                <p class="viewport" >Visibility</p>
+            </div>
+        </div>
+    </div>
+    <!-- main div end -->
+</div>
+
+    <!-- script-link -->
+    <script src="./index.js"></script>
+</body>
+</html>
